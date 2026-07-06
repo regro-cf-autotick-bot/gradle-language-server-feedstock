@@ -1,4 +1,4 @@
-{% set version = "3.17.3" %}
+{% set version = "3.18.0" %}
 
 package:
   name: gradle-language-server
@@ -6,7 +6,7 @@ package:
 
 source:
   - url: https://github.com/microsoft/vscode-gradle/archive/{{ version }}.tar.gz
-    sha256: 777cb17fae84db0194c5e51762235a785d727349ca89e533997ca4ee81e8b98e
+    sha256: fe2c5c163952ca26952ab80aab403c224e135aaf824abf60f95501994052a925
   - url: https://github.com/microsoft/build-server-for-gradle/archive/refs/tags/0.3.0.tar.gz
     sha256: 7651f2197715046708600cbc9a5ad3c7a0b9ffb8b72da01ef36eeb7d45a4cee6
     folder: extension/build-server-for-gradle
